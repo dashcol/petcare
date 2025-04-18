@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npx evershop install",
-    "start": "npx evershop start"
+    "start": "npx evershop start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "evershop build"
   },
   "keywords": [],
   "author": "",
