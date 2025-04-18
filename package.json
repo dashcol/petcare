@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "evershop build",
-    "setup": "evershop install",
-    "start": "evershop start"
+    "postinstall": "npx evershop install",
+    "start": "npx evershop start"
   },
   "keywords": [],
   "author": "",
