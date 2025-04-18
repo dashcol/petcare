@@ -6,7 +6,7 @@
     "postinstall": "npx evershop install",
     "start": "npx evershop start --port $PORT",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "evershop build"
+    "build": "npx evershop build"
   },
   "keywords": [],
   "author": "",
